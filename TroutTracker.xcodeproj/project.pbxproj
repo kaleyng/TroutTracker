@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA55BF901F2043D2005F284D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BF8F1F2043D2005F284D /* AppDelegate.swift */; };
+		CA55BF921F2043D2005F284D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BF911F2043D2005F284D /* ViewController.swift */; };
+		CA55BF951F2043D2005F284D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55BF931F2043D2005F284D /* Main.storyboard */; };
+		CA55BF971F2043D2005F284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55BF961F2043D2005F284D /* Assets.xcassets */; };
+		CA55BF9A1F2043D2005F284D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55BF981F2043D2005F284D /* LaunchScreen.storyboard */; };
+		CA55BFA51F2043D2005F284D /* TroutTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFA41F2043D2005F284D /* TroutTrackerTests.swift */; };
+		CA55BFB01F2043D2005F284D /* TroutTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFAF1F2043D2005F284D /* TroutTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA55BFA11F2043D2005F284D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA55BF841F2043D2005F284D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55BF8B1F2043D2005F284D;
+			remoteInfo = TroutTracker;
+		};
+		CA55BFAC1F2043D2005F284D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA55BF841F2043D2005F284D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55BF8B1F2043D2005F284D;
+			remoteInfo = TroutTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA55BF8C1F2043D2005F284D /* TroutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55BF8F1F2043D2005F284D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA55BF911F2043D2005F284D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA55BF941F2043D2005F284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA55BF961F2043D2005F284D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA55BF991F2043D2005F284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA55BF9B1F2043D2005F284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55BFA01F2043D2005F284D /* TroutTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroutTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55BFA41F2043D2005F284D /* TroutTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroutTrackerTests.swift; sourceTree = "<group>"; };
+		CA55BFA61F2043D2005F284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55BFAB1F2043D2005F284D /* TroutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55BFAF1F2043D2005F284D /* TroutTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroutTrackerUITests.swift; sourceTree = "<group>"; };
+		CA55BFB11F2043D2005F284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA55BF891F2043D2005F284D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55BF9D1F2043D2005F284D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55BFA81F2043D2005F284D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA55BF831F2043D2005F284D = {
+			isa = PBXGroup;
+			children = (
+				CA55BF8E1F2043D2005F284D /* TroutTracker */,
+				CA55BFA31F2043D2005F284D /* TroutTrackerTests */,
+				CA55BFAE1F2043D2005F284D /* TroutTrackerUITests */,
+				CA55BF8D1F2043D2005F284D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA55BF8D1F2043D2005F284D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA55BF8C1F2043D2005F284D /* TroutTracker.app */,
+				CA55BFA01F2043D2005F284D /* TroutTrackerTests.xctest */,
+				CA55BFAB1F2043D2005F284D /* TroutTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA55BF8E1F2043D2005F284D /* TroutTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CA55BF8F1F2043D2005F284D /* AppDelegate.swift */,
+				CA55BF911F2043D2005F284D /* ViewController.swift */,
+				CA55BF931F2043D2005F284D /* Main.storyboard */,
+				CA55BF961F2043D2005F284D /* Assets.xcassets */,
+				CA55BF981F2043D2005F284D /* LaunchScreen.storyboard */,
+				CA55BF9B1F2043D2005F284D /* Info.plist */,
+			);
+			path = TroutTracker;
+			sourceTree = "<group>";
+		};
+		CA55BFA31F2043D2005F284D /* TroutTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA55BFA41F2043D2005F284D /* TroutTrackerTests.swift */,
+				CA55BFA61F2043D2005F284D /* Info.plist */,
+			);
+			path = TroutTrackerTests;
+			sourceTree = "<group>";
+		};
+		CA55BFAE1F2043D2005F284D /* TroutTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA55BFAF1F2043D2005F284D /* TroutTrackerUITests.swift */,
+				CA55BFB11F2043D2005F284D /* Info.plist */,
+			);
+			path = TroutTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA55BF8B1F2043D2005F284D /* TroutTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55BFB41F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTracker" */;
+			buildPhases = (
+				CA55BF881F2043D2005F284D /* Sources */,
+				CA55BF891F2043D2005F284D /* Frameworks */,
+				CA55BF8A1F2043D2005F284D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroutTracker;
+			productName = TroutTracker;
+			productReference = CA55BF8C1F2043D2005F284D /* TroutTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA55BF9F1F2043D2005F284D /* TroutTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55BFB71F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTrackerTests" */;
+			buildPhases = (
+				CA55BF9C1F2043D2005F284D /* Sources */,
+				CA55BF9D1F2043D2005F284D /* Frameworks */,
+				CA55BF9E1F2043D2005F284D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA55BFA21F2043D2005F284D /* PBXTargetDependency */,
+			);
+			name = TroutTrackerTests;
+			productName = TroutTrackerTests;
+			productReference = CA55BFA01F2043D2005F284D /* TroutTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA55BFAA1F2043D2005F284D /* TroutTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55BFBA1F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTrackerUITests" */;
+			buildPhases = (
+				CA55BFA71F2043D2005F284D /* Sources */,
+				CA55BFA81F2043D2005F284D /* Frameworks */,
+				CA55BFA91F2043D2005F284D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA55BFAD1F2043D2005F284D /* PBXTargetDependency */,
+			);
+			name = TroutTrackerUITests;
+			productName = TroutTrackerUITests;
+			productReference = CA55BFAB1F2043D2005F284D /* TroutTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA55BF841F2043D2005F284D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BigNerdRanch;
+				TargetAttributes = {
+					CA55BF8B1F2043D2005F284D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CA55BF9F1F2043D2005F284D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA55BF8B1F2043D2005F284D;
+					};
+					CA55BFAA1F2043D2005F284D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA55BF8B1F2043D2005F284D;
+					};
+				};
+			};
+			buildConfigurationList = CA55BF871F2043D2005F284D /* Build configuration list for PBXProject "TroutTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA55BF831F2043D2005F284D;
+			productRefGroup = CA55BF8D1F2043D2005F284D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA55BF8B1F2043D2005F284D /* TroutTracker */,
+				CA55BF9F1F2043D2005F284D /* TroutTrackerTests */,
+				CA55BFAA1F2043D2005F284D /* TroutTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA55BF8A1F2043D2005F284D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55BF9A1F2043D2005F284D /* LaunchScreen.storyboard in Resources */,
+				CA55BF971F2043D2005F284D /* Assets.xcassets in Resources */,
+				CA55BF951F2043D2005F284D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55BF9E1F2043D2005F284D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55BFA91F2043D2005F284D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA55BF881F2043D2005F284D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55BF921F2043D2005F284D /* ViewController.swift in Sources */,
+				CA55BF901F2043D2005F284D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55BF9C1F2043D2005F284D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55BFA51F2043D2005F284D /* TroutTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55BFA71F2043D2005F284D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55BFB01F2043D2005F284D /* TroutTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA55BFA21F2043D2005F284D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55BF8B1F2043D2005F284D /* TroutTracker */;
+			targetProxy = CA55BFA11F2043D2005F284D /* PBXContainerItemProxy */;
+		};
+		CA55BFAD1F2043D2005F284D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55BF8B1F2043D2005F284D /* TroutTracker */;
+			targetProxy = CA55BFAC1F2043D2005F284D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA55BF931F2043D2005F284D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA55BF941F2043D2005F284D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA55BF981F2043D2005F284D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA55BF991F2043D2005F284D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA55BFB21F2043D2005F284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA55BFB31F2043D2005F284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA55BFB51F2043D2005F284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TroutTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA55BFB61F2043D2005F284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TroutTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CA55BFB81F2043D2005F284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TroutTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroutTracker.app/TroutTracker";
+			};
+			name = Debug;
+		};
+		CA55BFB91F2043D2005F284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TroutTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroutTracker.app/TroutTracker";
+			};
+			name = Release;
+		};
+		CA55BFBB1F2043D2005F284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TroutTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TroutTracker;
+			};
+			name = Debug;
+		};
+		CA55BFBC1F2043D2005F284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TroutTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TroutTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA55BF871F2043D2005F284D /* Build configuration list for PBXProject "TroutTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55BFB21F2043D2005F284D /* Debug */,
+				CA55BFB31F2043D2005F284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA55BFB41F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55BFB51F2043D2005F284D /* Debug */,
+				CA55BFB61F2043D2005F284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA55BFB71F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55BFB81F2043D2005F284D /* Debug */,
+				CA55BFB91F2043D2005F284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA55BFBA1F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55BFBB1F2043D2005F284D /* Debug */,
+				CA55BFBC1F2043D2005F284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA55BF841F2043D2005F284D /* Project object */;
+}
