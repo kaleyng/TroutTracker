@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2E3CEA1F23C75400589D1B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2E3CE91F23C75400589D1B /* MapKit.framework */; };
 		CA55BF901F2043D2005F284D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BF8F1F2043D2005F284D /* AppDelegate.swift */; };
-		CA55BF921F2043D2005F284D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BF911F2043D2005F284D /* ViewController.swift */; };
+		CA55BF921F2043D2005F284D /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BF911F2043D2005F284D /* ItemsViewController.swift */; };
 		CA55BF951F2043D2005F284D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55BF931F2043D2005F284D /* Main.storyboard */; };
 		CA55BF971F2043D2005F284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55BF961F2043D2005F284D /* Assets.xcassets */; };
 		CA55BF9A1F2043D2005F284D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55BF981F2043D2005F284D /* LaunchScreen.storyboard */; };
 		CA55BFA51F2043D2005F284D /* TroutTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFA41F2043D2005F284D /* TroutTrackerTests.swift */; };
 		CA55BFB01F2043D2005F284D /* TroutTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFAF1F2043D2005F284D /* TroutTrackerUITests.swift */; };
+		CA55BFBE1F2043F3005F284D /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFBD1F2043F3005F284D /* ItemStore.swift */; };
+		CA55BFC01F204409005F284D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFBF1F204409005F284D /* Item.swift */; };
+		CA55BFC21F204441005F284D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFC11F204441005F284D /* ItemCell.swift */; };
+		CA55BFC41F204453005F284D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFC31F204453005F284D /* DetailViewController.swift */; };
+		CA55BFC61F20446E005F284D /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55BFC51F20446E005F284D /* ImageStore.swift */; };
+		CACDF7521F36500200F0BFF9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDF7511F36500200F0BFF9 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA2E3CE91F23C75400589D1B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CA55BF8C1F2043D2005F284D /* TroutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA55BF8F1F2043D2005F284D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA55BF911F2043D2005F284D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA55BF911F2043D2005F284D /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		CA55BF941F2043D2005F284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA55BF961F2043D2005F284D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA55BF991F2043D2005F284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		CA55BFAB1F2043D2005F284D /* TroutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA55BFAF1F2043D2005F284D /* TroutTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroutTrackerUITests.swift; sourceTree = "<group>"; };
 		CA55BFB11F2043D2005F284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55BFBD1F2043F3005F284D /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemStore.swift; path = ../ItemStore.swift; sourceTree = "<group>"; };
+		CA55BFBF1F204409005F284D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../Item.swift; sourceTree = "<group>"; };
+		CA55BFC11F204441005F284D /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		CA55BFC31F204453005F284D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CA55BFC51F20446E005F284D /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		CACDF7511F36500200F0BFF9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2E3CEA1F23C75400589D1B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA2E3CE81F23C75400589D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E3CE91F23C75400589D1B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA55BF831F2043D2005F284D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,7 @@
 				CA55BFA31F2043D2005F284D /* TroutTrackerTests */,
 				CA55BFAE1F2043D2005F284D /* TroutTrackerUITests */,
 				CA55BF8D1F2043D2005F284D /* Products */,
+				CA2E3CE81F23C75400589D1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +121,18 @@
 		CA55BF8E1F2043D2005F284D /* TroutTracker */ = {
 			isa = PBXGroup;
 			children = (
+				CA55BFBF1F204409005F284D /* Item.swift */,
+				CA55BFBD1F2043F3005F284D /* ItemStore.swift */,
 				CA55BF8F1F2043D2005F284D /* AppDelegate.swift */,
-				CA55BF911F2043D2005F284D /* ViewController.swift */,
+				CA55BF911F2043D2005F284D /* ItemsViewController.swift */,
+				CA55BFC11F204441005F284D /* ItemCell.swift */,
+				CA55BFC31F204453005F284D /* DetailViewController.swift */,
+				CA55BFC51F20446E005F284D /* ImageStore.swift */,
 				CA55BF931F2043D2005F284D /* Main.storyboard */,
 				CA55BF961F2043D2005F284D /* Assets.xcassets */,
 				CA55BF981F2043D2005F284D /* LaunchScreen.storyboard */,
 				CA55BF9B1F2043D2005F284D /* Info.plist */,
+				CACDF7511F36500200F0BFF9 /* MapViewController.swift */,
 			);
 			path = TroutTracker;
 			sourceTree = "<group>";
@@ -193,6 +223,7 @@
 				TargetAttributes = {
 					CA55BF8B1F2043D2005F284D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H562758AXX;
 						ProvisioningStyle = Automatic;
 					};
 					CA55BF9F1F2043D2005F284D = {
@@ -259,8 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA55BF921F2043D2005F284D /* ViewController.swift in Sources */,
+				CA55BFC01F204409005F284D /* Item.swift in Sources */,
+				CA55BF921F2043D2005F284D /* ItemsViewController.swift in Sources */,
 				CA55BF901F2043D2005F284D /* AppDelegate.swift in Sources */,
+				CA55BFC41F204453005F284D /* DetailViewController.swift in Sources */,
+				CA55BFBE1F2043F3005F284D /* ItemStore.swift in Sources */,
+				CA55BFC61F20446E005F284D /* ImageStore.swift in Sources */,
+				CA55BFC21F204441005F284D /* ItemCell.swift in Sources */,
+				CACDF7521F36500200F0BFF9 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H562758AXX;
 				INFOPLIST_FILE = TroutTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTracker;
@@ -426,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H562758AXX;
 				INFOPLIST_FILE = TroutTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.TroutTracker;
@@ -507,6 +546,7 @@
 				CA55BFB61F2043D2005F284D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA55BFB71F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +555,7 @@
 				CA55BFB91F2043D2005F284D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA55BFBA1F2043D2005F284D /* Build configuration list for PBXNativeTarget "TroutTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +564,7 @@
 				CA55BFBC1F2043D2005F284D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
