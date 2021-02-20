@@ -38,7 +38,7 @@ class Item: NSObject, NSCoding {
     
     convenience init(forced: Bool = false) {
         if forced {
-            self.init(type: "Rainbow Trout", size: "18", fly: "Wooly Bugger", location: "Owyhee", dateCaught: "7/11/2017", comments: "Kewl")
+            self.init(type: "Rainbow Trout", size: "18", fly: "Wooly Bugger", location: "Owyhee", dateCaught: "7/11/2017", comments: "Neat")
         } else {
             self.init(type: "", size: "", fly: "", location: "", dateCaught: "", comments: "")
         }
